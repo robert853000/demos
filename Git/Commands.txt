@@ -38,6 +38,7 @@ git diff --color-words
  " show only different words
 
 git rm file_to_delete2.txt
+" Using the "--cached" option with git rm will remove the file from the index without affecting the local copy.
 
 git mv ./Git/file_to_delete2.txt ./Git/renamed_file.txt
 
