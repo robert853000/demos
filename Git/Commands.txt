@@ -82,6 +82,7 @@ git clean
 " *.zip
 " log/*.log.[0-9]
 " assets/photoshop/
+" passwords.php
 
 " Global Ignore
 git config --global core.excludesfile \.gitignore_global
