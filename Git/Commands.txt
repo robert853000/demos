@@ -72,7 +72,7 @@ git revert hash
 git clean
  " remove junk
 
-
+" Local Ignore
 " File: .gitignore
 
 " logs/*.txt
@@ -83,4 +83,9 @@ git clean
 " log/*.log.[0-9]
 " assets/photoshop/
 
+" Global Ignore
+git config --global core.excludesfile \.gitignore_global
+
+
+"
 
