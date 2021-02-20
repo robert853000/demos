@@ -16,7 +16,5 @@ npm init
 npm init --yes
 " quick
 
-
-
-
-
+node server.js
+" start listening
