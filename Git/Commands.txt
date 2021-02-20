@@ -72,3 +72,15 @@ git revert hash
 git clean
  " remove junk
 
+
+" File: .gitignore
+
+" logs/*.txt
+" # Demo/example
+" access.log
+" .DS_Store
+" *.zip
+" log/*.log.[0-9]
+" assets/photoshop/
+
+
