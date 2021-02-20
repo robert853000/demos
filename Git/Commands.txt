@@ -44,6 +44,7 @@ rm -f .git/index.lock
 
 
 " inspecting changes :
+" improves collaboration
 git log --oneline
 git log 
 git log --author="Rob"
