@@ -35,3 +35,7 @@ git rm file_to_delete2.txt
 git mv ./Git/file_to_delete2.txt ./Git/renamed_file.txt
 
 rm -f .git/index.lock 
+
+
+git log 
+git log --author="Rob"
