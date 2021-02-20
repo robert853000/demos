@@ -61,7 +61,7 @@ git checkout -- .
 git reset HEAD filename.html
  " unstage change
 
-
+git commit --ammend -m "Revert last changes"
 
 
 
