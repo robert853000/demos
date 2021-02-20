@@ -51,6 +51,9 @@ git log --author="Rob"
 git show ID
 git diff 734d024a3831cc3c75625c2b44d1d3e69b75702f..51fa9dacffff463919ad8d23042c996fb6516f42 --color-words
 
+" restore change:
+git checkout -- <file>
+
 
 
 
