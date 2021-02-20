@@ -1,9 +1,14 @@
-git status
-git add first_file.txt
+ " Git is tracking my changes.
 
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        new file:   Git/first_file.txt
-        new file:   Git/second_file.txt
+git add first_file.txt
+git add .
+
+git status
+
+git diff
+ " compares working directory
+git diff --staged
+ " changes in staging area
+
 
 
