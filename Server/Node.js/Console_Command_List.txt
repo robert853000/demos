@@ -1,3 +1,6 @@
+Terminal in Visual Studio Code
+
+
 npm install lodash
 npm install -g nodemon 
 nodemon
