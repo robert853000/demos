@@ -15,9 +15,12 @@ git init
 git branch -M main
 
 git add first_file.txt
+ " from working directory to staging index
 git add .
 
 git commit -m "commit description"
+ " from staging index to repository
+ " git commit -a , git commit --all, 
 
 git remote add origin https://github.com/robert853000/demos.git
 git push -u origin main
