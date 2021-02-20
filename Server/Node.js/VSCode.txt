@@ -1,0 +1,17 @@
+npm install lodash
+npm install -g nodemon 
+nodemon
+npm install body-parser
+npm install express
+npm install mongoose
+npm install socket.io
+
+npm init
+" generate file package.json
+npm init --yes
+" quick
+
+
+
+
+
