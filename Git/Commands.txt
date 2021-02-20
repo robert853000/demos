@@ -59,11 +59,16 @@ git checkout -- .
 
 
 git reset HEAD filename.html
- " unstage change
+ "  Git will reset the filename.html in the staging index with the repository version of filename.html
 
 git commit --ammend -m "Revert last changes"
 
 git checkout hash -- exploerers.html
  " Retrive old version from chain
 
+git revert hash
+
+
+git clean
+ " remove junk
 
