@@ -63,5 +63,7 @@ git reset HEAD filename.html
 
 git commit --ammend -m "Revert last changes"
 
+git checkout hash -- exploerers.html
+ " Retrive old version from chain
 
 
