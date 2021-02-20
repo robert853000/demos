@@ -32,4 +32,4 @@ git diff --staged
 
 git rm file_to_delete2.txt
 
-git mv file_to_delete2.txt renamed_file.txt
+git mv ./Git/file_to_delete2.txt ./Git/renamed_file.txt
