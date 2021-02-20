@@ -28,7 +28,10 @@ git diff
  " compares working directory
 git diff --staged
  " changes in staging area
-
+git diff 
+ " Format: spacebar, f,b (forward backward) , -s, 
+git diff --color-words
+ " show only different words
 
 git rm file_to_delete2.txt
 
@@ -39,3 +42,6 @@ rm -f .git/index.lock
 
 git log 
 git log --author="Rob"
+
+
+
