@@ -1,2 +1,9 @@
 git status
 git add first_file.txt
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Git/first_file.txt
+        new file:   Git/second_file.txt
+
+
