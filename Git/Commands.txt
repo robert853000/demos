@@ -30,4 +30,6 @@ git diff --staged
  " changes in staging area
 
 
-rm file_to_delete2.txt
+git rm file_to_delete2.txt
+
+git mv file_to_delete2.txt renamed_file.txt
