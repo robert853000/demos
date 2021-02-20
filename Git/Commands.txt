@@ -1,0 +1,39 @@
+# Hi humans!
+# git-vscode-demo
+# Just another repository
+# Learning GIT in VSCode
+
+
+# git config --global user.email "xx@gmail.com"
+# git config --global user.name "xx"
+# git config --global --list
+# echo "# git-vscode-demo" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/robert853000/git-vscode-demo.git
+# git push -u origin main
+
+
+# Commit, Commit All, Pull , Push
+
+…or create a new repository on the command line
+
+echo "# demos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/robert853000/demos.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/robert853000/demos.git
+git branch -M main
+git push -u origin main
+
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
