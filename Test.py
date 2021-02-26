@@ -47,3 +47,14 @@ if solution == "7":
     if solution == "2":
         print("You win a new car!")
 print("Game Over")
+print("Thanx for playing!")
+
+
+def swimm():
+    print("Swimming")
+    print("Swimming")
+
+
+swimm()
+swimm()
+swimm()
