@@ -39,3 +39,11 @@ else:
 print("Thanx!")
 
 # Include comments
+
+
+solution = input("How much is 2+5?")
+if solution == "7":
+    solution = input("How much is 1+1?")
+    if solution == "2":
+        print("You win a new car!")
+print("Game Over")
