@@ -29,3 +29,8 @@ print ("Someone programmed this code")
 
 0.2 / 0.3
 
+name = input("Whats's your name ? ")
+if name == "python":
+    print ("That's good to hear !")
+else:
+    print ( "That makes me sad!" )
