@@ -1,7 +1,7 @@
 (2 + 3 * 6 / 2) * 1
 print ("Programs tend to have bugs")
 
-name = "python"
+name = "Interpretive lang -> -> "
 
 age = 36 
 
