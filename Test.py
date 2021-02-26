@@ -32,10 +32,13 @@ print ("Someone programmed this code")
 name = input("Whats's your name ? ")
 if name == "python":
     print ("That's good to hear !")
+    print("line2")
+    print("line3")
 else:
     print ( "That makes me sad!" )
 
 # Include comments 
+
 
 
 
