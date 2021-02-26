@@ -9,4 +9,23 @@ print (age)
 
 print (type(age))
 
+print ("Someone programmed this code")
+
+2 + 3
+
+2 * 3 
+
+2 ** 3
+
+3 / 2
+
+3 // 2
+
+5 % 3
+
+45000 / 5
+
+0.2 + 0.3
+
+0.2 / 0.3
 
