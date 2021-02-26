@@ -36,5 +36,6 @@ if name == "python":
     print("Line 3")
 else:
     print("That makes me sad!")
+print("Thanx!")
 
 # Include comments
