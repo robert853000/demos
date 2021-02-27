@@ -115,4 +115,5 @@ def main():
     c.method1()
 
 
-main()
+if __name__ == "__main__":
+    main()
