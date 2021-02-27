@@ -1,3 +1,8 @@
+import math
+
+print(math.ceil(0.1))
+print(math.pi)
+print("---------- demo --------")
 (2 + 3 * 6 / 2) * 1
 print("Programs tend to have bugs")
 
