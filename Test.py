@@ -2,6 +2,9 @@ import math
 from datetime import time
 from datetime import date
 from datetime import datetime
+import urllib.request
+import json
+
 
 today = date.today()
 print("Today's date is ", today)
@@ -113,6 +116,24 @@ def main():
 
     c = myClass()
     c.method1()
+
+    webUrl = urllib.request.urlopen(
+        "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson"
+    )
+    print("result code: " + str(webUrl.getcode()))
+
+    data = webUrl.read()
+    printResults(data)
+    # print(data)
+
+
+def printResults(data):
+    theJSON = json.loads(data)
+    if "title" in theJSON["metadata"]:
+        print(theJSON["metadata"]["title"])
+
+    for i in theJSON["features"]:
+        print(i["properties"]["place"])
 
 
 if __name__ == "__main__":
