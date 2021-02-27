@@ -1,4 +1,14 @@
 import math
+from datetime import time
+from datetime import date
+from datetime import datetime
+
+today = date.today()
+print("Today's date is ", today)
+print(today.day, today.month, today.year)
+print(today.weekday())
+today = datetime.now()
+print("Today's date is ", today)
 
 print(math.ceil(0.1))
 print(math.pi)
