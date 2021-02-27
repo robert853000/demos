@@ -60,6 +60,11 @@ swimm()
 swimm()
 
 
+class myClass:
+    def method1(self):
+        print("Method1")
+
+
 def main():
     x = 0
     while x <= 5:
@@ -89,6 +94,9 @@ def main():
 
             break
         print(x)
+
+    c = myClass()
+    c.method1()
 
 
 main()
