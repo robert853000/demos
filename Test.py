@@ -71,5 +71,24 @@ def main():
             print("-")
         x = x + 1
 
+    for x in range(5, 10):
+        print(x)
+
+    days = ["Mon", "Tue"]
+    for d in days:
+        print(d)
+
+    for i, d in enumerate(days):
+        print(i, d)
+
+    for x in range(10, 20):
+        if x % 2:
+            continue
+        if x == 18:
+            print("Break")
+
+            break
+        print(x)
+
 
 main()
