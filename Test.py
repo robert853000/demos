@@ -4,6 +4,14 @@ from datetime import date
 from datetime import datetime
 import urllib.request
 import json
+from html.parser import HTMLParser
+
+
+class NyHTMLParser(HTMLParser):
+    def handle_comment(self, data):
+        print("Comment:", data)
+        pos = self.getpos()
+        print("At line: ", pos[0])
 
 
 today = date.today()
@@ -125,6 +133,12 @@ def main():
     data = webUrl.read()
     printResults(data)
     # print(data)
+
+    # parser = MyHTMLParser ()
+    # f = open ("sample.html")
+    # if f.mode == "r":
+    #    contents = f.read()
+    #    parser.feed(contents)
 
 
 def printResults(data):
