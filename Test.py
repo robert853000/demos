@@ -58,3 +58,18 @@ def swimm():
 swimm()
 swimm()
 swimm()
+
+
+def main():
+    x = 0
+    while x <= 5:
+        if x == 5:
+            print(x)
+        elif x == 0:
+            print(0)
+        else:
+            print("-")
+        x = x + 1
+
+
+main()
