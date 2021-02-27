@@ -9,6 +9,7 @@ print(today.day, today.month, today.year)
 print(today.weekday())
 today = datetime.now()
 print("Today's date is ", today)
+print(today.strftime("Current year is %Y "))
 
 print(math.ceil(0.1))
 print(math.pi)
