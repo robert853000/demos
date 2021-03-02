@@ -13,7 +13,7 @@ public class Main {
         System.out.println("--------------------------------------");
 
 
-        /* Primitive */
+        /* Primitive types */
         int num = 1;
         double weight = 3.2;
         char oneChar = 'K';
@@ -39,7 +39,21 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String message2= input.nextLine();
 
-        System.out.println("You wrote:" + message2);
+        System.out.println("You wrote:" + message2 + ".");
+
+        if (message2.equals("Java")){
+            System.out.println("You win new car");
+            System.out.println("Type number");
+            int favoriteNumber = input.nextInt();
+            if (favoriteNumber < 5){
+                System.out.println("Your inputted num:" + favoriteNumber);
+            }
+        }else {
+            System.out.println ("If you had written Java, you would win new car");
+        }
+
+
+
 
 
 
