@@ -65,6 +65,12 @@ public class Main {
         announceTeaTime(50 );
         announceTeaTime(50 );
         announceTeaTime(50 );
+
+        Triangle triangle1 = new Triangle(15,5 ,10, 8,3);
+        Triangle triangle2 = new Triangle(5,4,14, 8,5);
+
+        System.out.println(triangle1.findArea());
+        System.out.println(triangle2.findArea());
     }
 
     public static void announceTeaTime( double teaPrice ){
@@ -77,4 +83,6 @@ public class Main {
 
         return ;
     }
+
+
 }
