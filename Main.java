@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
+    public static int socialCredit = 0;
 
     public static void main(String[] args) {
 
@@ -58,14 +59,22 @@ public class Main {
                 isOnRepeat = false;
             }
         }
+        System.out.println("red".equals("red"));
+        System.out.println(Math.pow(2,5));
 
-        announceTeaTime();
+        announceTeaTime(50 );
+        announceTeaTime(50 );
+        announceTeaTime(50 );
     }
 
-    public static void announceTeaTime(){
+    public static void announceTeaTime( double teaPrice ){
         System.out.println("Waiting for tea ...");
         Scanner input = new Scanner(System.in);
         input.next();
         System.out.println("Awesome... ");
+        socialCredit -= teaPrice;
+        System.out.println("Your Social Credit Score: " + socialCredit);
+
+        return ;
     }
 }
