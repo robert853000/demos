@@ -53,8 +53,18 @@ public class Main {
         }
 
 
+        boolean isOnRepeat =true;
+        int i = 0;
+        while (isOnRepeat){
+            System.out.println(message.charAt(
+                  i
+            ));
 
-
+            i = i + 1;
+            if (i >= message.length()){
+                isOnRepeat = false;
+            }
+        }
 
 
 
