@@ -24,6 +24,8 @@
 # Log Linear
 # Quadratic --
 
+# The bobble sort, The mergle sort, The quicksort
+
 
 def power(num, pwr):
     if pwr == 0:
