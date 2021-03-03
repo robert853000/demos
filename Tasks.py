@@ -55,7 +55,6 @@ isOnRepeat = True
 showMenu = True
 
 while showMenu:
-
     print("\033c")
     print("Tasks")
     print("1 - Find the greatest common denominator")
@@ -99,9 +98,11 @@ while showMenu:
 
         else:
             print("unknown choice")
+
         input1 = input("Press any key to continue ...")
 
     elif menuAnswer == "0":
         showMenu = False
+
     else:
         print(",,")
