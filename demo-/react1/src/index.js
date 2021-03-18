@@ -4,13 +4,31 @@ import ReactDOM from 'react-dom';
 import './index.css';
 /*import App from './App';
 import reportWebVitals from './reportWebVitals';
+*/
 
+
+/*
+
+DEMO
+https://reverent-boyd-aa4321.netlify.app/
+
+*/
+
+
+
+/*
+
+
+
+NPM commands
 
 NPM
 node -v
 npm -v
 npx create-react-app hello-react --use-npm
 npm start
+
+npm run build
 
 
 */
